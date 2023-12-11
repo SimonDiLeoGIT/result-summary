@@ -1,0 +1,126 @@
+@import url("./global/fonts.css");
+
+.App {
+  width: 100%;
+  font-family: var(--Font-family);
+}
+
+.result-container {
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(0deg, rgba(46, 43, 233, 1) 10%, rgba(120, 87, 255, 1) 110%);
+  border-radius: 0px 0px 40px 40px;
+  padding-bottom: 1rem;
+}
+
+.result-container h1 {
+  font-size: larger;
+  font-weight: 700;
+  color: var(--Light-lavender);
+}
+
+.score {
+  background: linear-gradient(0deg, rgba(36, 33, 202, 0.4) 0%, rgba(78, 33, 202, 1) 100%);
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  display: grid;
+  place-content: center;
+}
+
+.score h2 {
+  color: var(--White);
+  font-size: 4rem;
+  margin-bottom: 0;
+  margin: auto;
+}
+
+.score span {
+  color: rgba(200, 199, 255, 0.612);;
+  font-weight: 500;
+}
+
+.information {
+  width: 70%;
+  margin: auto;
+}
+
+.information h2 {
+  color: var(--White);
+  font-weight: 500;
+}
+
+.information p {
+  color: var(--Light-lavender);
+  font-weight: 500;
+}
+
+.summary-container {
+  width: 80%;
+  margin: auto;
+}
+
+.statistic {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.class {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  place-content: center;
+  font-weight: 800;
+}
+
+.class img {
+  margin: auto;
+}
+
+.reaction {
+  color: var(--Light-red);
+  background-color: hsla(0, 100%, 67%, 0.103);
+}
+
+.memory {
+  color: var(--Orangey-yellow);
+  background-color: hsl(39, 100%, 56%, 0.103);
+}
+
+.verbal {
+  color: var(--Green-teal);
+  background-color: hsl(166, 100%, 37%, 0.103);
+}
+
+.visual {
+  color: var(--Cobalt-blue);
+  background-color: hsl(234, 85%, 45%, 0.103);
+}
+
+.abs {
+  color: var(--Dark-gray-blue);
+  font-weight: 800;
+}
+
+
+.abs span {
+  color: hsla(224, 30%, 27%, 0.458);;
+}
+
+button {
+  margin: 1rem 0rem;
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 40px;
+  border: none;
+  font-size: large;
+  font-weight: 700;
+  color: var(--White);
+  background-color: var(--Dark-gray-blue);
+}
+
+button:hover {
+  cursor: pointer;
+}
